@@ -1,0 +1,7 @@
+#body1
+{
+    background-image: url("images_used/background_homepage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
