@@ -5,3 +5,24 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+@media(max-width:576px)
+{
+    #img_1
+    {
+        height: 100px;
+        width: 100px;
+    }
+}
+@media(min-width:576px) and (max-width:768px)
+{
+    #img_1
+    {
+         height: 190px;
+         width: 220px;
+    }
+}
+
+#show1
+{
+    background:linear-gradient(to right,rgb(0,0,0),grey)
+}
