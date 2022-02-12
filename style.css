@@ -34,3 +34,8 @@
         width:50%;
     }
 }
+
+#newsletter
+{
+    background : linear-gradient(to right , greenyellow , lightblue);
+}
