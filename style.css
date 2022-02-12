@@ -26,3 +26,11 @@
 {
     background:linear-gradient(to right,rgb(0,0,0),grey)
 }
+
+@media(min-width:768px)
+{
+    .news-input
+    {
+        width:50%;
+    }
+}
