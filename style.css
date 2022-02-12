@@ -39,3 +39,37 @@
 {
     background : linear-gradient(to right , greenyellow , lightblue);
 }
+
+.country-section
+{
+    background: linear-gradient(to right, darkblue ,lightblue, white);
+}
+.head1
+{
+    color:rgb(245, 86, 65);
+}
+
+.p1
+{
+    font-weight: 500;
+}
+
+.btn-1
+{
+    background-color:rgb(65, 221, 104);
+}
+
+.btn-1:active
+{
+    background-color: greenyellow;
+}
+
+#country-card-1
+{
+    background: linear-gradient(to bottom right , green , white, orange);
+}
+
+#country-card-common
+{
+    background: linear-gradient(to bottom right , lightblue, white);
+}
