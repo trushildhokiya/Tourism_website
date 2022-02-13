@@ -52,7 +52,6 @@
             You can see the famous destinations and tourist spots you can visit while planning your journey. The site provides a list of places from around the globe which you can access country wise. It's designed in a manner to give best user experience 
             <p class="lead my-0"><span class="text-warning">Stay in Touch by signing up!</span></p>
           </p>
-          <button class="btn btn-primary btn-lg">Tour</button>
         </div>
         <img class="img-fluid " src="images_used/traveller.png" alt="traveller" id="img_1">
       </div>
@@ -89,7 +88,7 @@
             <div class="card-body text-center">
               <img class="img-fluid mb-3 " src="images_used/Jaiselmer.jpg" alt="golden city Jaisalmer located in India">
               <h3 class="card-title mb-3">INDIA</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quam accusamus tempore a fuga quod.</p>
+              <p>India is the right place for wild safaris, desert safaris, nature seeking places,adventurous activities, spiritual places, and historical places of India.The country is known for its spirtuality</p>
               <a href="#" class="btn btn-dark stretched-link"> <i class="bi bi-chevron-double-right"></i>View</a>
             </div>
           </div>
@@ -102,7 +101,7 @@
             <div class="card-body text-center">
               <img class="img-fluid mb-3 " src="images_used/greece.jpg" alt="Greece">
               <h3 class="card-title mb-3">GREECE</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, magnam ratione? Iusto sint, ut aut ipsam </p>
+              <p>Ancient archaeological sites, cliffs tumbling into sparkling blue water, sand and pebble beaches, and a balmy Mediterranean climate make Greece one of Europe's prime places to visit for tourists.</p>
               <a href="#" class="btn btn-dark stretched-link"> <i class="bi bi-chevron-double-right"></i>View</a>
             </div>
           </div>
@@ -115,7 +114,7 @@
             <div class="card-body text-center">
               <img class="img-fluid mb-3 " src="images_used/switzerland.jpg" alt="switzerland">
               <h3 class="card-title mb-3">SWITZERLAND</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quam accusamus tempore a fuga quod.</p>
+              <p>Switzerland is a beautiful, tourist-attracting country. While it is most famous for its ski resorts during the winter, it is beautiful all year round.It is covered by majestic alps , placid lakes etc.</p>
               <a href="#" class="btn btn-dark stretched-link"> <i class="bi bi-chevron-double-right"></i>View</a>
             </div>
           </div>
@@ -128,7 +127,7 @@
             <div class="card-body text-center">
               <img class="img-fluid mb-3 " src="images_used/canada.jpg" alt="canada">
               <h3 class="card-title mb-3">CANADA</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quam accusamus tempore a fuga quod.</p>
+              <p> Canada's natural beauty, from mountains and glaciers to secluded lakes and forests, is almost unparalleled worldwide also Canada has cosmopolitan cities that are clean, safe, friendly, and multicultural.</p>
               <a href="#" class="btn btn-dark stretched-link"> <i class="bi bi-chevron-double-right"></i>View</a>
             </div>
           </div>
@@ -140,6 +139,61 @@
       </div>
     </div>
   </section>
+
+  <!-- Footer -->
+
+  <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy; 2022</p>
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+    </div>
+    <div class="container">
+      <p class="lead">Thankyou for visiting our website. Please fill Out the review form below you can also add suggestions for improvement
+        <i class="bi bi-hand-thumbs-up-fill"></i>
+      </p>
+      <button class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#reviewpage" id="btn-2">Review</button>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="reviewpage" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="reviewpageLabel">Review Form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill out this review form . New suggestions are welcome.</p>
+          <form action="">
+            <div class="mb-3">
+              <label for="first-name" class="col-form-label">First Name</label>
+              <input type="text" class="form-control" id="first-name">
+            </div>
+            <div class="mb-3">
+              <label for="last-name" class="col-form-label">Last Name</label>
+              <input type="text" class="form-control" id="last-name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="col-form-label"> <i class="bi bi-envelope"></i>Email</label>
+              <input type="text" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="suggestion" class="col-form-label">Review and Suggestions</label>
+              <input type="text" class="form-control" id="suggestions" placeholder="Review here">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!--js bundle-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   

@@ -73,3 +73,8 @@
 {
     background: linear-gradient(to bottom right , lightblue, white);
 }
+
+#btn-2:active
+{
+    background-color: green;
+}
