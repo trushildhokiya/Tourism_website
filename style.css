@@ -57,6 +57,7 @@
 .btn-1
 {
     background-color:rgb(65, 221, 104);
+    font-family: 'Patrick Hand', cursive;
 }
 
 .btn-1:active
@@ -74,6 +75,16 @@
     background: linear-gradient(to bottom right , lightblue, white);
 }
 
+.btn-3
+{
+    font-family: 'Patrick Hand', cursive;
+}
+
+#btn-2
+{
+    font-family: 'Patrick Hand', cursive;
+}
+
 #btn-2:active
 {
     background-color: green;
@@ -82,4 +93,49 @@
 #more0
 {
     color: blue;
+}
+
+.beach-card
+{
+    background : linear-gradient(to bottom ,skyblue,rgb(97, 97, 226) ,rgb(235, 235, 122));
+    border-radius: 10px;
+}
+
+.haunted-card
+{
+    background: linear-gradient(to bottom , black ,darkviolet);
+    border-color: black;
+    border-radius: 10px;
+}
+
+.hillside-card
+{
+    background: linear-gradient(to bottom, white ,skyblue, lightgreen, green);
+    border-color: black;
+    border-radius: 10px;
+}
+
+.hillside-text
+{
+    color : black;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 20px;
+}
+
+.haunted-text
+{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 20px;
+}
+
+.beach-text
+{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 20px;
+}
+
+.btnColor
+{
+    background: linear-gradient(to bottom right , lightgreen , lightyellow ,lightpink);
+    font-family:'Patrick Hand', cursive;
 }
