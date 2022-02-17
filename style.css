@@ -58,6 +58,7 @@
 {
     background-color:rgb(65, 221, 104);
     font-family: 'Patrick Hand', cursive;
+    border-radius: 20px;
 }
 
 .btn-1:active
@@ -83,6 +84,7 @@
 #btn-2
 {
     font-family: 'Patrick Hand', cursive;
+    border-radius: 30px;
 }
 
 #btn-2:active
@@ -138,4 +140,5 @@
 {
     background: linear-gradient(to bottom right , lightgreen , lightyellow ,lightpink);
     font-family:'Patrick Hand', cursive;
+    border-radius: 15px;
 }
