@@ -21,3 +21,8 @@ body {
 {
     transform: scale(1.019);
 }
+
+.card-body
+{
+	border-radius: 15px;
+}

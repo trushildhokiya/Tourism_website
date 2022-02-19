@@ -142,3 +142,31 @@
     font-family:'Patrick Hand', cursive;
     border-radius: 15px;
 }
+
+#country-card-common:hover
+{
+    transform: scale(1.019);
+}
+
+
+#country-card-1:hover
+{
+    transform: scale(1.019);
+}
+
+.haunted-card:hover{
+    transform: scale(1.020);
+}
+
+.beach-card:hover{
+    transform: scale(1.020);
+}
+
+.hillside-card:hover{
+    transform: scale(1.020);
+}
+
+.text-clr
+{
+    color:blanchedalmond;
+}
