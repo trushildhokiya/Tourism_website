@@ -1,0 +1,21 @@
+#myvideo
+{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.text-01
+{
+   background: linear-gradient(to bottom right , #F6EA41,#F048C6 );
+   font-size: 50px;
+   font-family: Helvetica, sans-serif;
+   font-weight: bold;
+   text-transform: uppercase;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
