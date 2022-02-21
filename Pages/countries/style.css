@@ -19,3 +19,10 @@
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
+
+input:focus
+{
+    width:500px;
+    transition: ease-out;
+    transition-duration: 2s;
+}
