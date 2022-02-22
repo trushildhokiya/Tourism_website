@@ -42,26 +42,28 @@
 
   <video src="../../videos_used/countries-bg.mp4"  autoplay playsinline muted loop id="myvideo"></video>
 
-  <!-- Country Cards -->
+  <!-- search bar -->
+  
+  <section class="p-4">
+    <div class="container container01">
+      <input type="text" id="myFilter" placeholder="Search for Countries" onkeyup="myFunction()">
+    </div>
+  </section>
+
+  <!-- country cards -->
 
   <section class="p-4">
     <div class="container">
-
-      <div class="row">
-        <div class="col-sm-4 mb-4">
-          <input type="text" id="myFilter" onkeyup="myFunction()" placeholder="Search for countries">
-        </div>
-      </div>
-      <h2 class="text-center text-01">Countries</h2>
+      <h2 class="text-01 text-center mb-3">Countries</h2>
       <div class="row g-4" id="myCards">
-        
+
         <!-- country 1 -->
-        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="col-sm-6 col-md-6 col-lg-3">
           <div class="card">
             <div class="card-body text-center">
-              <img class="img-fluid mb-3 " src="../../images_used/Jaiselmer.jpg" alt="golden city Jaisalmer located in India">
-              <h3 class="card-title mb-3">INDIA</h3>
-              <p>India is the right place for wild safaris, desert safaris, nature seeking places,adventurous activities, spiritual places, and historical places of India.The country is known for its spirtuality</p>
+              <img class="img-fluid" src="../../images_used/Jaiselmer.jpg" alt="Jaisemer">
+              <h3 class="card-title">India</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, autem.</p>
               <a href="#" class="btn btn-dark stretched-link"> <i class="bi bi-chevron-double-right"></i>View</a>
             </div>
           </div>
@@ -69,12 +71,12 @@
 
         <!-- country 2 -->
 
-        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="col-sm-6 col-md-6 col-lg-3">
           <div class="card">
             <div class="card-body text-center">
-              <img class="img-fluid mb-3 " src="../../images_used/Jaiselmer.jpg" alt="golden city Jaisalmer located in India">
-              <h3 class="card-title mb-3">GREECE</h3>
-              <p>India is the right place for wild safaris, desert safaris, nature seeking places,adventurous activities, spiritual places, and historical places of India.The country is known for its spirtuality</p>
+              <img class="img-fluid" src="../../images_used/greece.jpg" alt="Greece">
+              <h3 class="card-title">Greece</h3>
+              <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae</p>
               <a href="#" class="btn btn-dark stretched-link"> <i class="bi bi-chevron-double-right"></i>View</a>
             </div>
           </div>
@@ -82,25 +84,25 @@
 
         <!-- country-3 -->
 
-        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="col-sm-6 col-md-6 col-lg-3">
           <div class="card">
             <div class="card-body text-center">
-              <img class="img-fluid mb-3 " src="../../images_used/Jaiselmer.jpg" alt="golden city Jaisalmer located in India">
-              <h3 class="card-title mb-3">SWITZERLAND</h3>
-              <p>India is the right place for wild safaris, desert safaris, nature seeking places,adventurous activities, spiritual places, and historical places of India.The country is known for its spirtuality</p>
+              <img class="img-fluid" src="../../images_used/switzerland.jpg" alt="Switzerland">
+              <h3 class="card-title">Switzerland</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, culpa..</p>
               <a href="#" class="btn btn-dark stretched-link"> <i class="bi bi-chevron-double-right"></i>View</a>
             </div>
           </div>
         </div>
 
-        <!-- country-4 -->
+        <!-- country 4 -->
 
-        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="col-sm-6 col-md-6 col-lg-3">
           <div class="card">
             <div class="card-body text-center">
-              <img class="img-fluid mb-3 " src="../../images_used/Jaiselmer.jpg" alt="golden city Jaisalmer located in India">
-              <h3 class="card-title mb-3">CANADA</h3>
-              <p>India is the right place for wild safaris, desert safaris, nature seeking places,adventurous activities, spiritual places, and historical places of India.The country is known for its spirtuality</p>
+              <img class="img-fluid" src="../../images_used/canada.jpg" alt="Canada">
+              <h3 class="card-title">Canada</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, culpa..</p>
               <a href="#" class="btn btn-dark stretched-link"> <i class="bi bi-chevron-double-right"></i>View</a>
             </div>
           </div>
@@ -110,6 +112,7 @@
       </div>
     </div>
   </section>
+    
 
 
   <script src="script.js"></script>

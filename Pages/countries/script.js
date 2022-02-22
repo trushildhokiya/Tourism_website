@@ -1,22 +1,23 @@
 function myFunction() 
 {
-    var input, filter,cards,cardContainer ,title , i;
-    input=document.getElementById("myFilter");
-    filter= input.value.toUpperCase();
+  var filter, cards , title;
 
-    cardContainer = document.getElementById("myCards");
-    cards= cardContainer.getElementsByClassName("card");
+  filter= document.getElementById("myFilter").value.toUpperCase();
 
-    for(i=0 ; i<cards.length ; i++)
-    {
-        title = cards[i].querySelector(".card-title")
+  cards=document.getElementById("myCards").getElementsByClassName("card");
 
-        if(title.innerText.toUpperCase().indexOf(filter)>-1)
-        {
-            cards[i].style.display= "";
-        }
-        else{
-            cards[i].style.display="none";
-        }
-    }
+  for(var i=0 ; i<cards.length ; i++)
+  {
+      title = cards[i].querySelector(".card-title");
+      
+      if(title.innerText.toUpperCase().indexOf(filter)> -1)
+      {
+        cards[i].style.display = "";
+      }
+      else
+      {
+        cards[i].style.display = "none";
+      }
+  }
+  
 }
