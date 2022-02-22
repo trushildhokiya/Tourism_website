@@ -42,3 +42,32 @@ input:focus
     border: 3px outset greenyellow;
 }
 
+#india
+{
+    background: linear-gradient(to bottom, orange, white , green);
+    border: none;
+    border-radius: 15px;
+    transition: 500ms;
+}
+.india-title
+{
+    color:blue
+}
+
+#country-r-1
+{
+    background: linear-gradient(to bottom right,#69FF97,#00E4FF);
+    border:none;
+    border-radius: 15px;
+    transition: 500ms;
+}
+
+#country-r-1:hover
+{
+    transform: scale(1.02);
+}
+
+#india:hover
+{
+    transform: scale(1.02);
+}
