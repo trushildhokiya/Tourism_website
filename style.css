@@ -69,11 +69,15 @@
 #country-card-1
 {
     background: linear-gradient(to bottom right , green , white, orange);
+    transition: 500ms;
+    border-radius: 15px;
 }
 
 #country-card-common
 {
     background: linear-gradient(to bottom right , lightblue, white);
+    transition: 500ms;
+    border-radius: 15px;
 }
 
 .btn-3
@@ -101,6 +105,7 @@
 {
     background : linear-gradient(to bottom ,skyblue,rgb(97, 97, 226) ,rgb(235, 235, 122));
     border-radius: 10px;
+    transition: 500ms;
 }
 
 .haunted-card
@@ -108,6 +113,7 @@
     background: linear-gradient(to bottom , black ,darkviolet);
     border-color: black;
     border-radius: 10px;
+    transition: 500ms;
 }
 
 .hillside-card
@@ -115,6 +121,7 @@
     background: linear-gradient(to bottom, white ,skyblue, lightgreen, green);
     border-color: black;
     border-radius: 10px;
+    transition: 500ms;
 }
 
 .hillside-text
@@ -145,28 +152,44 @@
 
 #country-card-common:hover
 {
-    transform: scale(1.019);
+    transform: scale(1.050);
 }
 
 
 #country-card-1:hover
 {
-    transform: scale(1.019);
+    transform: scale(1.050);
 }
 
 .haunted-card:hover{
-    transform: scale(1.020);
+    transform: scale(1.050);
 }
 
 .beach-card:hover{
-    transform: scale(1.020);
+    transform: scale(1.050);
 }
 
 .hillside-card:hover{
-    transform: scale(1.020);
+    transform: scale(1.050);
 }
 
 .text-clr
 {
     color:blanchedalmond;
+}
+
+.co-img
+{
+    border-radius: 15px;
+}
+
+.q-btn
+{
+  border: 1px outset violet;
+  background: linear-gradient(to right , #4facfe,#00f2fe);
+}
+
+.accordion-item
+{
+    background: transparent;
 }
