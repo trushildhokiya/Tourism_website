@@ -71,3 +71,16 @@ input:focus
 {
     transform: scale(1.02);
 }
+
+#country-r-2
+{
+    background: linear-gradient(to bottom, #B993D6,#8CA6DB );
+    border:none;
+    border-radius: 15px;
+    transition: 500ms;
+}
+
+#country-r-2:hover
+{
+    transform: scale(1.02);
+}
